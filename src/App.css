@@ -37,3 +37,24 @@
   width: 150px;
   text-align: center;
 }
+
+.btn-step {
+  margin-top: 5px;
+  cursor: pointer;
+  border: 1px solid #000;
+  background-color: #fff;
+  width: 100px;
+}
+
+.btn-step:hover {
+  background-color: #999;
+  color: #fff;
+}
+
+.btn-step:focus {
+  outline: 0;
+}
+
+.active {
+  border: 1px solid #f00;
+}
